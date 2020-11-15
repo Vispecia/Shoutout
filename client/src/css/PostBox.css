@@ -1,0 +1,46 @@
+.postbox{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 8px solid var(--shoutout-background);
+}
+
+.postbox > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.postbox__input{
+    padding: 20px;
+    display: flex;
+}
+.postbox__imageInput{
+    border: none;
+    padding: 10px;
+    color: var(--shoutout-color);
+}
+.postbox__imageInput:hover{
+    cursor: pointer;
+}
+.postbox__fileInput{
+    display: none;
+    
+}
+
+.postbox__input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+.postbox__postButton{
+    background-color: var(--shoutout-color) !important;
+    border:none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 60px !important;
+    width: 80px;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}

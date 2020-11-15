@@ -1,0 +1,29 @@
+.profileInfo{
+    flex: 0.4;
+    border-right: 1px solid var(--shoutout-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.profileInfo::-webkit-scrollbar {
+    display: none;
+}
+
+.profileInfo{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.profileInfo__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--shoutout-background);
+    padding: 15px 20px;
+}
+
+.profileInfo__header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

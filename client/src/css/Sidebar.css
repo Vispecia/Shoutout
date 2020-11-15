@@ -1,0 +1,26 @@
+.sidebar{
+    border-right: 1px solid var(--shoutout-background);
+    flex: 0.3;
+    /* min-width: 250px; */
+    margin-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidebar__shoutoutIcon{
+    color:var(--shoutout-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar__post {
+    background-color: var(--shoutout-color) !important;
+    border:none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 60px !important;
+    margin-top: 20px !important;
+}
